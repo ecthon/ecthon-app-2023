@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Heading } from "@/components/sections/Heading";
 import { Projects } from "@/components/sections/Projects";
+import { UIGuide } from "@/components/sections/UIGuide.tsx";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Heading />
       <Projects />
+      <UIGuide />
     </div>
   )
 }
