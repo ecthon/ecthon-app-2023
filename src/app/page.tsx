@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Heading } from "@/components/sections/Heading";
 import { Projects } from "@/components/sections/Projects";
@@ -10,6 +11,7 @@ export default function Home() {
       <Heading />
       <Projects />
       <UIGuide />
+      <Footer />
     </div>
   )
 }
