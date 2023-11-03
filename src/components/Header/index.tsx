@@ -1,5 +1,5 @@
 'use client'
-import Hamburger from "hamburger-react";
+import { Cross as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import { useMediaQuery } from 'react-responsive';
 
