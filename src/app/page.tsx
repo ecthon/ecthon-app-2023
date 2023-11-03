@@ -2,7 +2,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Heading } from "@/components/sections/Heading";
 import { Projects } from "@/components/sections/Projects";
-import { UIGuide } from "@/components/sections/UIGuide.tsx";
+import { UIGuide } from "@/components/sections/StyleGuide";
 
 export default function Home() {
   return (
