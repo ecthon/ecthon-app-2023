@@ -20,7 +20,6 @@ export function Header() {
 
   const toggleMenu = () => {
     setOpen(!isOpen);
-    console.log(isOpen)
   };
 
   return (
