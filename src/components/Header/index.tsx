@@ -10,6 +10,7 @@ export function Header() {
 
   const toggleMenu = () => {
     setOpen(!isOpen);
+    console.log(isMobile)
   };
 
   return (
@@ -20,8 +21,11 @@ export function Header() {
             ecthon<span className="text-emerald-500">.</span>
           </a>
           <div className="flex">
-            <button onClick={toggleMenu}>
+            <button onClick={toggleMenu} className="hidden max-sm:inline-block">
                 <Hamburger rounded distance="sm" hideOutline={false} size={16} />
+            </button>
+            <button onClick={toggleMenu} className="sm:inline-block max-sm:hidden">
+                <Hamburger rounded distance="sm" hideOutline={false} size={32} />
             </button>
           </div>
         </div>
