@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-import { Spiral as Hamburger } from 'hamburger-react'
+import Hamburger from 'hamburger-react'
 import { useMediaQuery } from "react-responsive";
 import { Nav } from "./Nav";
 
@@ -21,7 +21,7 @@ export function Header() {
           </a>
           <div className="flex">
             <button onClick={toggleMenu}>
-                <Hamburger size={isMobile ? 16 : 32} />
+                <Hamburger rounded distance="sm" hideOutline={false} size={16} />
             </button>
           </div>
         </div>
